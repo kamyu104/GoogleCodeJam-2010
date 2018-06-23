@@ -21,12 +21,12 @@ def world_cup_2010():
     for i in reversed(xrange(2**(P+1)-1)):
         for j in reversed(xrange(P+1)):
             if i >= half:
-                if j <= M[i-half]:
+                if j >= P-M[i-half]:
                     dp[i][j] = 0
             else:
                 dp[i][j] = min(dp[i][j],
-                               min(dp[i*2+1][j+1] + dp[i*2+2][j+1],
-                                   dp[i*2+1][j] + dp[i*2+2][j] + cost[i]))
+                               min(dp[i*2+1][j+1] + dp[i*2+2][j+1] + cost[i],
+                                   dp[i*2+1][j] + dp[i*2+2][j]))
     return dp[0][0]
     
 for case in xrange(input()):
