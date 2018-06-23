@@ -3,8 +3,8 @@
 # Google Code Jam 2010 Round 2 - Problem B. World Cup 2010
 # https://code.google.com/codejam/contest/635102/dashboard#s=p1&a=1
 #
-# Time:  O(P^2)
-# Space: O(P^2)
+# Time:  O(P * 2^P)
+# Space: O(P * 2^P)
 #
 
 def world_cup_2010():
