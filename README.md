@@ -29,7 +29,7 @@ Python solutions of Google Code Jam 2010. Solution begins with `*` means it will
 ## Round 2
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|B| [World Cup 2010](https://code.google.com/codejam/contest/635102/dashboard#s=p1&a=1)| [Python](./Round%202/wolrd-cup-2-2010.py)| _O(P * 2^P)_ | _O(P * 2^P)_ | Easy | | DP |
+|B| [World Cup 2010](https://code.google.com/codejam/contest/635102/dashboard#s=p1&a=1)| [Python](./Round%202/wolrd-cup-2010.py)| _O(P * 2^P)_ | _O(P * 2^P)_ | Easy | | DP |
 
 ## Round 3
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
