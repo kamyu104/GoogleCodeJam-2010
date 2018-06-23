@@ -1,6 +1,6 @@
 # Copyright (c) 2018 kamyu. All rights reserved.
 #
-# Google Code Jam 2010 Round 2- Problem B. World Cup 2010
+# Google Code Jam 2010 Round 2 - Problem B. World Cup 2010
 # https://code.google.com/codejam/contest/635102/dashboard#s=p1&a=1
 #
 # Time:  O(P^2)
