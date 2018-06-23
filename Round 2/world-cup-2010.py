@@ -22,7 +22,7 @@ def world_cup_2010():
                     dp[i][j] = 0
             else:
                 dp[i][j] = min(dp[i][j],
-                               min(dp[i*2+1][j+1] + dp[i*2+2][j+1] + inp[i],
+                               min(inp[i] + dp[i*2+1][j+1] + dp[i*2+2][j+1],
                                    dp[i*2+1][j] + dp[i*2+2][j]))
     return dp[0][0]
     
