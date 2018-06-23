@@ -15,14 +15,13 @@ def world_cup_2010():
     cost.reverse()
 
     dp = [[float("inf") for _ in xrange(P+1)] for _ in xrange(2**(P+1)-1)]
-    for i in reversed(xrange(2**(P+1)-1)):
-        if i >= 2**P-1:
-            for j in reversed(xrange(P-cost[i], P+1)):
-                dp[i][j] = 0
-            continue
+    for i in reversed(xrange(2**P-1, 2**(P+1)-1)):
+        for j in reversed(xrange(P-cost[i], P+1)):
+            dp[i][j] = 0
+    for i in reversed(xrange(2**P-1)):
         for j in reversed(xrange(P)):
             dp[i][j] = min(cost[i] + dp[i*2+1][j+1] + dp[i*2+2][j+1],
-                            dp[i*2+1][j] + dp[i*2+2][j])
+                           dp[i*2+1][j] + dp[i*2+2][j])
     return dp[0][0]
     
 for case in xrange(input()):
