@@ -38,3 +38,5 @@ Python solutions of Google Code Jam 2010. Solution begins with `*` means it will
 ## Wolrd Finals
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
+|E| [Ninjutsu](https://code.google.com/codejam/contest/801485/dashboard#s=p4)|||| Very Hard | | |
+|F| [The Paths of Yin Yang](https://code.google.com/codejam/contest/801485/dashboard#s=p5)|||| Very Hard | | |
